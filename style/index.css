@@ -77,13 +77,10 @@
     }
     
     .inset-container {
+        height: 100%;
         display: flex;
         justify-content: space-between;
-    }
-    
-    .inset-container img,
-    .inset {
-        margin-top: 2%;
+        align-items: center;
     }
     
     .inset {
@@ -122,10 +119,12 @@
     /* footer */
     
     footer {
-        background-color: black;
+        background-color: rgb(57, 67, 82);
+        height: 300px;
     }
     
     .footer-container {
+        height: 300px;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
