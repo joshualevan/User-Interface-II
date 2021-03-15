@@ -137,6 +137,10 @@ footer {
     padding: 5% 0 2% 0;
 }
 
+.footer-container h2 {
+    display: none;
+}
+
 .social-container {
     display: flex;
     justify-content: space-around;
@@ -185,6 +189,9 @@ footer {
 /* mobile */
 
 @media (max-width:500px) {
+    section {
+        width: 100%;
+    }
     /* header ----------------*/
     .site-content {
         padding-top: 3%;
@@ -216,11 +223,34 @@ footer {
     .inset-container img {
         display: none;
     }
+    h2 {
+        margin-bottom: 2%;
+        font-size: 3rem;
+    }
     .inset {
         width: 100%;
         margin-top: 20%;
     }
+    .inset p {
+        line-height: 2rem;
+    }
     /* content -------------- */
     /* gallery */
+    .image-container {
+        padding: 0;
+        width: 40%;
+        margin: 5%;
+    }
     /* footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer-container h2 {
+        display: block;
+    }
+    .social-container {
+        width: 80%
+    }
 }
